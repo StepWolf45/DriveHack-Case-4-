@@ -40,4 +40,4 @@ if __name__ == '__main__':
     recognizer = text_based.TextBasedRec()
     neuralnet = Segmentator("epoch_12.t")
     classes_names = {0: "Счёт-фактура", 1: "Счёт на оплату", -1: "неопределён"}
-    app.run(host="0.0.0.0", port=8080)
+    app.run(host="0.0.0.0", port=8080) 
